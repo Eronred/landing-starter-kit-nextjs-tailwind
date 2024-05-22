@@ -3,7 +3,7 @@ import React from 'react'
 import Container from './container'
 import TestimonialCard from './testimonial-card'
 import LeadingTitle from './leading-title'
-import { fadingAnimationByIndex } from '@/lib/animations'
+import { fadeInAnimationByIndex } from '@/lib/animations'
 import { testimonialData } from '@/lib/content'
 
 
@@ -22,7 +22,7 @@ export default function TestimonialSection() {
                             </h3>
                             <motion.p
                                 className="text-text-secondary-dark text-xl text-center mt-6 max-w-[500px]"
-                                variants={fadingAnimationByIndex}
+                                variants={fadeInAnimationByIndex}
                                 initial="initial"
                                 animate="animate"
                             >

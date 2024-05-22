@@ -3,7 +3,7 @@ import React from 'react'
 import Container from './container'
 import PriceCard from './price-card'
 import Switch from './switch'
-import { fadingAnimationByIndex } from '@/lib/animations'
+import { fadeInAnimationByIndex } from '@/lib/animations'
 
 
 const priceCards = [
@@ -128,7 +128,7 @@ export default function PriceSection() {
                             </h3>
                             <motion.p
                                 className="text-secondary-light text-xl text-center mt-3 max-w-[500px]"
-                                variants={fadingAnimationByIndex}
+                                variants={fadeInAnimationByIndex}
                                 initial="initial"
                                 animate="animate"
                             >

@@ -1,6 +1,6 @@
 # Next.js Landing Page Starter Kit
 
-This is a robust starter kit for building landing pages using Next.js 14, Tailwind CSS with TypeScript, and Framer Motion.
+A starter kit for building landing pages using Next.js 14, Tailwind CSS with TypeScript, and Framer Motion.
 
 ## Features
 
