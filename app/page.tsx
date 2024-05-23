@@ -6,7 +6,6 @@ import DownloadSection from "@/components/download-section"
 import CardsSection from "@/components/cards-section"
 import PriceSection from "@/components/price-section"
 import HowItWorks from "@/components/how-it-works"
-import Container from "@/components/container"
 
 export default function IndexPage() {
 
